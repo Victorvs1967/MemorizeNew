@@ -15,10 +15,10 @@ struct ContentView: View {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 75))]) {
                 ForEach(viewModel.cards) { card in
                     CardView(card: card)
-                        .aspectRatio(2/3, contentMode: .fit)
-                        .onTapGesture {
-                            viewModel.choose(card)
-                        }
+                    .aspectRatio(2/3, contentMode: .fit)
+                    .onTapGesture {
+                        viewModel.choose(card)
+                    }
                 }
             }
         }
@@ -35,13 +35,12 @@ struct CardView: View {
             let shape = RoundedRectangle(cornerRadius: 16.0)
             if card.isFaceUp {
                 shape.fill(Color.white)
-                shape.strokeBorder(lineWidth: 3)
                 Text(card.content).font(.largeTitle)
             } else {
                 shape.fill(Color.red)
-                shape.strokeBorder(lineWidth: 3)
             }
-         }
+            shape.strokeBorder(lineWidth: 3)
+       }
     }
 }
 
