@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D319CBAF2830D01F0068692F /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319CBAE2830D01F0068692F /* MemorizeApp.swift */; };
-		D319CBB12830D01F0068692F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319CBB02830D01F0068692F /* ContentView.swift */; };
+		D319CBB12830D01F0068692F /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319CBB02830D01F0068692F /* EmojiMemoryGameView.swift */; };
 		D319CBB32830D02E0068692F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D319CBB22830D02E0068692F /* Assets.xcassets */; };
 		D319CBB62830D02E0068692F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D319CBB52830D02E0068692F /* Preview Assets.xcassets */; };
 		D39ECAAA28C87CAB002A1273 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39ECAA928C87CAA002A1273 /* MemoryGame.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		D319CBAB2830D01F0068692F /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D319CBAE2830D01F0068692F /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		D319CBB02830D01F0068692F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D319CBB02830D01F0068692F /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		D319CBB22830D02E0068692F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D319CBB52830D02E0068692F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D319CBB72830D02E0068692F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D319CBAE2830D01F0068692F /* MemorizeApp.swift */,
-				D319CBB02830D01F0068692F /* ContentView.swift */,
+				D319CBB02830D01F0068692F /* EmojiMemoryGameView.swift */,
 				D39ECAA928C87CAA002A1273 /* MemoryGame.swift */,
 				D39ECAAB28C87FFD002A1273 /* EmojiMemoryGame.swift */,
 				D319CBB22830D02E0068692F /* Assets.xcassets */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39ECAAA28C87CAB002A1273 /* MemoryGame.swift in Sources */,
-				D319CBB12830D01F0068692F /* ContentView.swift in Sources */,
+				D319CBB12830D01F0068692F /* EmojiMemoryGameView.swift in Sources */,
 				D319CBAF2830D01F0068692F /* MemorizeApp.swift in Sources */,
 				D39ECAAC28C87FFD002A1273 /* EmojiMemoryGame.swift in Sources */,
 			);
@@ -205,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,7 +280,7 @@
 				DEVELOPMENT_TEAM = T72DS9GRKF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 				DEVELOPMENT_TEAM = T72DS9GRKF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
